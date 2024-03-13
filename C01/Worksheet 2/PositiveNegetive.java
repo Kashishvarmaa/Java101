@@ -6,7 +6,6 @@ public class PositiveNegetive {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number: ");
         int num = sc.nextInt();
-
         if (num < 0) {
             System.out.print("The entered number is a negative number");
         } else {
