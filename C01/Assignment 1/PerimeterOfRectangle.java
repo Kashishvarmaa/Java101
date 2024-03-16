@@ -5,15 +5,14 @@ public class PerimeterOfRectangle  {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the length: ");
         int l = sc.nextInt();
-        System.out.print("Enter the length: ");
+        System.out.print("Enter the breadth: ");
         int b = sc.nextInt();
 
         if(l<=0 && b<=0){
             System.out.print("Enter a valid number");
         }
         else{
-            int peri = 0;
-            peri = 2*(l*b);
+            int peri = 2*(l*b);
             System.out.print("The perimeter of rectangle is: " + peri);
         }
     }
