@@ -22,7 +22,7 @@ class discount{
         }
         total = amount - discount;
         return total;
-    }
+    }}
 public class DiscountUsingClass {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
@@ -32,7 +32,7 @@ public class DiscountUsingClass {
 
         double value = dis.CalDiscount(bill);
         System.out.print("You total bill was "+ bill+ "with discount your total bill is "+ value);
-    }}}
+    }}
 
 
 

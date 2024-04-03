@@ -1,8 +1,10 @@
 // Volume of a box using parameters and return value in method
 public class VolumeOfBox {
+    static double volume;
      static double calculateVolume(double length, double width, double height) {
-        double volume = length * width * height;
-        return volume;
+       volume =  length * width * height;
+       return volume;
+
     }
     public static void main(String[] args) {
         double length = 5.0;
